@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>ramtin rajabi | portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<script src="/assets/js/vue.min.js"></script>
+</head>
+
+<body class="is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="app">
+
+		<!-- Header -->
+		<div>
+			<header id="home">
+				<div class="d-flex justify-content-center fixed-top navNotScrolled">
+					<nav class="navbar navbar-expand-lg navbar-dark ">
+						<div class="collapse navbar-collapse" id="navbarone">
+							<ul class="navbar-nav">
+								<li class="nav-item  px-5 active">
+									<a class=" nav-link" href="#home">home<span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item px-5">
+									<a class="nav-link" href="#about">about</a>
+								</li>
+								<li class="nav-item px-5">
+									<a class="nav-link" href="#portofilo">portofilo</a>
+								</li>
+								<li class="nav-item px-5">
+									<a class="nav-link" href="#contact">contact</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</header>
+
+
+			<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<div class="logo"><span class="icon fa-gem text-white"></span></div>
+					<h2>My portfolio</h2>
+					<p class=" text-white">front-end developer and software engineer </p>
+				</div>
+			</section>
+
+			<!-- Wrapper -->
+			<section id="wrapper">
+
+				<!-- One -->
+				<section id="about" class="wrapper spotlight style1">
+					<div class="inner">
+						<a href="#" class="image"><img src="/images/mypic.jpg" alt="" /></a>
+						<div class="content">
+							<h2 class="major">about</h2>
+							<p class=" text-white">hi my name is ramtin rajabi i'm 23 years old from iran </p>
+						</div>
+					</div>
+				</section>
+
+				<!-- Four -->
+				<section class="wrapper alt style1">
+					<div class="inner" id="portofilo">
+						<h2 class="major">portofilo</h2>
+						<p class="text-white">Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
+							Phasellus non pulvinar
+							erat.
+							Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis
+							lorem
+							lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+						<section class="features">
+							<article>
+								<a href="#" class="image"><img src="/images/project1.jpg" alt="" /></a>
+								<h3 class="major">landing page</h3>
+								<p class="text-white">my first project</p>
+								<a href="#" class="special text-white">live perviews</a>
+							</article>
+
+						</section>
+						<!--<ul class="actions">
+							<li><a href="#" class="button">Browse All</a></li>
+						</ul>-->
+					</div>
+				</section>
+
+			</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="inner" id="contact">
+					<h2 class="major">Get in touch</h2>
+					<p class="text-white">Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat.
+						Fusce
+						tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
+						in
+						tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="4"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" /></li>
+						</ul>
+					</form>
+					<ul class="contact">
+						<li class="icon solid fa-phone text-white">09113818157</li>
+						<li class="icon solid fa-envelope text-white">
+							<a class="text-white" href="#">ramtinrajabi922@gmail.com</a></li>
+						<li class="icon brands fa-instagram text-white"><a class="text-white"
+								href="#">instagram.com/untitled-tld</a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled Inc. All rights reserved.</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>
+
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("a").on('click', function (event) {
+
+
+				if (this.hash !== "") {
+
+					event.preventDefault();
+
+					var hash = this.hash;
+
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function () {
+
+						window.location.hash = hash;
+					});
+				}
+			});
+		});
+		$('#home .navbar-nav a').on('click', function () {
+			$('#home .navbar-nav').find('li.active').removeClass('active');
+			$(this).parent('li').addClass('active');
+		});
+
+		$(function () {
+			var header = $(".navNotScrolled");
+			$(window).scroll(function () {
+				var scroll = $(window).scrollTop();
+
+				if (scroll >= 200) {
+					header.removeClass('header').addClass("navScrolled");
+				} else {
+					header.removeClass("navScrolled").addClass('header');
+				}
+			});
+		});
+
+	</script>
+
+</body>
+
+
+
+</html>

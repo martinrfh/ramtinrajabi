@@ -4167,3 +4167,7 @@ input, select, textarea {
 	height:1000px;
 }
 
+.navbar{
+	transition: all 10s ease
+}
+
